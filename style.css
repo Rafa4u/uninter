@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(207, 207, 207);
+}
+p {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: small;
+  padding: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+img {
+  border-radius: 30px;
+}
+button {
+  background: linear-gradient(180deg, #184718, #008000);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#buttonVoltar {
+  background: black;
+  border-radius: 18px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input {
+  border: white;
+  margin-top: 25px;
+}
+form {
+  margin: 30px;
+}
