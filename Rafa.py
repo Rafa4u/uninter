@@ -93,15 +93,15 @@ def main():
         print("3. Chamar paciente")
         print("4. Sair")
 
-        choice = input("Escolha uma opção: ")
+        escolha = input("Escolha uma opção: ")
 
-        if choice == '1':
+        if escolha == '1':
             queue.inserir()
-        elif choice == '2':
+        elif escolha == '2':
             queue.imprimirListaEspera()
-        elif choice == '3':
+        elif escolha == '3':
             queue.atenderPaciente()
-        elif choice == '4':
+        elif escolha == '4':
             print("Saindo...")
             break
         else:
