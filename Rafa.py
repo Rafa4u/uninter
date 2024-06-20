@@ -102,10 +102,10 @@ def main():
         elif escolha == '3':
             queue.atenderPaciente()
         elif escolha == '4':
-            print("Saindo...")
+            print("Saindo do programa...")
             break
         else:
-            print("Opção inválida. Por favor, escolha uma opção válida.")
+            print("Opção inválida. Favor escolher uma opção válida.")
 
 if __name__ == "__main__":
     main()
